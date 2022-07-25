@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+    <title>简历</title>
+    <!-- 展示样式,逐步添加 -->
+    <style id="style"></style>
+    <!-- 不展示样式 -->
+    <style>* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        *::before,
+        *::after {
+            box-sizing: border-box;
+        }
+
+        #html {
+            word-break: break-all;
+        }
+
+        /* 屏幕宽小于500px时 */
+        @media(max-width:500px) {
+            #html {
+                height: 45vh;
+                overflow: auto;
+            }
+
+            #div1 {
+                top: unset;
+                right: -5px;
+                bottom: -20px;
+                transform: scale(0.8);
+            }
+        }</style>
+</head>
+
+<body>
+    <div id="html"></div>
+    <div id="div1"></div>
+    <script src="/main.1f19ae8e.js"></script>
+</body>
+
+</html>
