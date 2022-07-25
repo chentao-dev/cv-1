@@ -81,7 +81,7 @@ function start() {
     i >= str.length - 1 && clearInterval(inter_id);
     // 自增
     i = i + 1;
-  }, 50);
+  }, 25);
 }
 
 start();

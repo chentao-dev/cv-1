@@ -146,10 +146,10 @@ function start() {
     i >= str.length - 1 && clearInterval(inter_id); // 自增
 
     i = i + 1;
-  }, 50);
+  }, 25);
 }
 
 start();
 console.log("总长度" + str.length);
 },{}]},{},["epB2"], null)
-//# sourceMappingURL=main.2b7e6c7b.js.map
+//# sourceMappingURL=main.e70822bc.js.map
